@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B9A8654953FE05A1242520 /* Pods_GlidSearchSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7E96964AA42921523ABA97 /* Pods_GlidSearchSwiftUITests.framework */; };
+		2A5B17D6E93C7C14728264FF /* Pods_GlidSearchSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B57ED5EFE3B7460B370B57 /* Pods_GlidSearchSwiftUI.framework */; };
+		965328E2149927ED0050B39B /* Pods_GlidSearchSwiftUI_GlidSearchSwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66C3EC030ABE47AFE82EB6E /* Pods_GlidSearchSwiftUI_GlidSearchSwiftUIUITests.framework */; };
+		F35155D62592CAF900AEAEBA /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35155D52592CAF900AEAEBA /* CollectionView.swift */; };
+		F35155D92592D68000AEAEBA /* CustomTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35155D82592D68000AEAEBA /* CustomTabs.swift */; };
+		F35155DD2592DB5300AEAEBA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35155DC2592DB5300AEAEBA /* Profile.swift */; };
+		F35155DF2592DB7B00AEAEBA /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35155DE2592DB7B00AEAEBA /* ProfileImage.swift */; };
+		F35155E12592DCB200AEAEBA /* ProfileMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35155E02592DCB200AEAEBA /* ProfileMap.swift */; };
+		F35155E42592E14D00AEAEBA /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35155E32592E14D00AEAEBA /* Search.swift */; };
+		F3C3D7492592B71200F4F752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3D7482592B71200F4F752 /* AppDelegate.swift */; };
+		F3C3D74B2592B71200F4F752 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3D74A2592B71200F4F752 /* SceneDelegate.swift */; };
+		F3C3D74D2592B71200F4F752 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3D74C2592B71200F4F752 /* ContentView.swift */; };
+		F3C3D74F2592B71700F4F752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C3D74E2592B71700F4F752 /* Assets.xcassets */; };
+		F3C3D7522592B71700F4F752 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C3D7512592B71700F4F752 /* Preview Assets.xcassets */; };
+		F3C3D7552592B71700F4F752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C3D7532592B71700F4F752 /* LaunchScreen.storyboard */; };
+		F3C3D7602592B71700F4F752 /* GlidSearchSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3D75F2592B71700F4F752 /* GlidSearchSwiftUITests.swift */; };
+		F3C3D76B2592B71700F4F752 /* GlidSearchSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3D76A2592B71700F4F752 /* GlidSearchSwiftUIUITests.swift */; };
+		F3C3D7792592B82300F4F752 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3D7782592B82300F4F752 /* CollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3C3D75C2592B71700F4F752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3C3D73D2592B71200F4F752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3C3D7442592B71200F4F752;
+			remoteInfo = GlidSearchSwiftUI;
+		};
+		F3C3D7672592B71700F4F752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3C3D73D2592B71200F4F752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3C3D7442592B71200F4F752;
+			remoteInfo = GlidSearchSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52E918B36FCB9584FCCE338F /* Pods-GlidSearchSwiftUI-GlidSearchSwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlidSearchSwiftUI-GlidSearchSwiftUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-GlidSearchSwiftUI-GlidSearchSwiftUIUITests/Pods-GlidSearchSwiftUI-GlidSearchSwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A01F7EE570F33786983E6F3 /* Pods-GlidSearchSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlidSearchSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-GlidSearchSwiftUI/Pods-GlidSearchSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		65B57ED5EFE3B7460B370B57 /* Pods_GlidSearchSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlidSearchSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7E96964AA42921523ABA97 /* Pods_GlidSearchSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlidSearchSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C743923D73ACFCA58B561D2 /* Pods-GlidSearchSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlidSearchSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-GlidSearchSwiftUI/Pods-GlidSearchSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		CFABB79F656423857EC2A7DC /* Pods-GlidSearchSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlidSearchSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-GlidSearchSwiftUITests/Pods-GlidSearchSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0006D76D99AD26DB1E26AF0 /* Pods-GlidSearchSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlidSearchSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-GlidSearchSwiftUITests/Pods-GlidSearchSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCB63534CEB3E009DFC270E9 /* Pods-GlidSearchSwiftUI-GlidSearchSwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlidSearchSwiftUI-GlidSearchSwiftUIUITests.release.xcconfig"; path = "Target Support Files/Pods-GlidSearchSwiftUI-GlidSearchSwiftUIUITests/Pods-GlidSearchSwiftUI-GlidSearchSwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F35155D52592CAF900AEAEBA /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		F35155D82592D68000AEAEBA /* CustomTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabs.swift; sourceTree = "<group>"; };
+		F35155DC2592DB5300AEAEBA /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		F35155DE2592DB7B00AEAEBA /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
+		F35155E02592DCB200AEAEBA /* ProfileMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMap.swift; sourceTree = "<group>"; };
+		F35155E32592E14D00AEAEBA /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		F3C3D7452592B71200F4F752 /* GlidSearchSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlidSearchSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C3D7482592B71200F4F752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3C3D74A2592B71200F4F752 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3C3D74C2592B71200F4F752 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3C3D74E2592B71700F4F752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3C3D7512592B71700F4F752 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3C3D7542592B71700F4F752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3C3D7562592B71700F4F752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C3D75B2592B71700F4F752 /* GlidSearchSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlidSearchSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C3D75F2592B71700F4F752 /* GlidSearchSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlidSearchSwiftUITests.swift; sourceTree = "<group>"; };
+		F3C3D7612592B71700F4F752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C3D7662592B71700F4F752 /* GlidSearchSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlidSearchSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C3D76A2592B71700F4F752 /* GlidSearchSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlidSearchSwiftUIUITests.swift; sourceTree = "<group>"; };
+		F3C3D76C2592B71700F4F752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C3D7782592B82300F4F752 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F66C3EC030ABE47AFE82EB6E /* Pods_GlidSearchSwiftUI_GlidSearchSwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlidSearchSwiftUI_GlidSearchSwiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3C3D7422592B71200F4F752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5B17D6E93C7C14728264FF /* Pods_GlidSearchSwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C3D7582592B71700F4F752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B9A8654953FE05A1242520 /* Pods_GlidSearchSwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C3D7632592B71700F4F752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965328E2149927ED0050B39B /* Pods_GlidSearchSwiftUI_GlidSearchSwiftUIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3E35A25EA0FA5C919221F48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65B57ED5EFE3B7460B370B57 /* Pods_GlidSearchSwiftUI.framework */,
+				F66C3EC030ABE47AFE82EB6E /* Pods_GlidSearchSwiftUI_GlidSearchSwiftUIUITests.framework */,
+				7E7E96964AA42921523ABA97 /* Pods_GlidSearchSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F35155D42592CAE500AEAEBA /* ColllectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F3C3D7782592B82300F4F752 /* CollectionViewCell.swift */,
+				F35155D52592CAF900AEAEBA /* CollectionView.swift */,
+			);
+			path = ColllectionView;
+			sourceTree = "<group>";
+		};
+		F35155D72592D65A00AEAEBA /* CustomTabs */ = {
+			isa = PBXGroup;
+			children = (
+				F35155D82592D68000AEAEBA /* CustomTabs.swift */,
+			);
+			path = CustomTabs;
+			sourceTree = "<group>";
+		};
+		F35155DA2592DB2300AEAEBA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F35155DC2592DB5300AEAEBA /* Profile.swift */,
+				F35155DE2592DB7B00AEAEBA /* ProfileImage.swift */,
+				F35155E02592DCB200AEAEBA /* ProfileMap.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F35155E22592E13700AEAEBA /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				F35155E32592E14D00AEAEBA /* Search.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		F37C862837F8C7545D8C52CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A01F7EE570F33786983E6F3 /* Pods-GlidSearchSwiftUI.debug.xcconfig */,
+				9C743923D73ACFCA58B561D2 /* Pods-GlidSearchSwiftUI.release.xcconfig */,
+				52E918B36FCB9584FCCE338F /* Pods-GlidSearchSwiftUI-GlidSearchSwiftUIUITests.debug.xcconfig */,
+				DCB63534CEB3E009DFC270E9 /* Pods-GlidSearchSwiftUI-GlidSearchSwiftUIUITests.release.xcconfig */,
+				D0006D76D99AD26DB1E26AF0 /* Pods-GlidSearchSwiftUITests.debug.xcconfig */,
+				CFABB79F656423857EC2A7DC /* Pods-GlidSearchSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3C3D73C2592B71200F4F752 = {
+			isa = PBXGroup;
+			children = (
+				F3C3D7472592B71200F4F752 /* GlidSearchSwiftUI */,
+				F3C3D75E2592B71700F4F752 /* GlidSearchSwiftUITests */,
+				F3C3D7692592B71700F4F752 /* GlidSearchSwiftUIUITests */,
+				F3C3D7462592B71200F4F752 /* Products */,
+				F37C862837F8C7545D8C52CE /* Pods */,
+				C3E35A25EA0FA5C919221F48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3C3D7462592B71200F4F752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3C3D7452592B71200F4F752 /* GlidSearchSwiftUI.app */,
+				F3C3D75B2592B71700F4F752 /* GlidSearchSwiftUITests.xctest */,
+				F3C3D7662592B71700F4F752 /* GlidSearchSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3C3D7472592B71200F4F752 /* GlidSearchSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				F35155E22592E13700AEAEBA /* Search */,
+				F35155DA2592DB2300AEAEBA /* Profile */,
+				F35155D72592D65A00AEAEBA /* CustomTabs */,
+				F35155D42592CAE500AEAEBA /* ColllectionView */,
+				F3C3D7482592B71200F4F752 /* AppDelegate.swift */,
+				F3C3D74A2592B71200F4F752 /* SceneDelegate.swift */,
+				F3C3D74C2592B71200F4F752 /* ContentView.swift */,
+				F3C3D74E2592B71700F4F752 /* Assets.xcassets */,
+				F3C3D7532592B71700F4F752 /* LaunchScreen.storyboard */,
+				F3C3D7562592B71700F4F752 /* Info.plist */,
+				F3C3D7502592B71700F4F752 /* Preview Content */,
+			);
+			path = GlidSearchSwiftUI;
+			sourceTree = "<group>";
+		};
+		F3C3D7502592B71700F4F752 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3C3D7512592B71700F4F752 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3C3D75E2592B71700F4F752 /* GlidSearchSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3C3D75F2592B71700F4F752 /* GlidSearchSwiftUITests.swift */,
+				F3C3D7612592B71700F4F752 /* Info.plist */,
+			);
+			path = GlidSearchSwiftUITests;
+			sourceTree = "<group>";
+		};
+		F3C3D7692592B71700F4F752 /* GlidSearchSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3C3D76A2592B71700F4F752 /* GlidSearchSwiftUIUITests.swift */,
+				F3C3D76C2592B71700F4F752 /* Info.plist */,
+			);
+			path = GlidSearchSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3C3D7442592B71200F4F752 /* GlidSearchSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C3D76F2592B71700F4F752 /* Build configuration list for PBXNativeTarget "GlidSearchSwiftUI" */;
+			buildPhases = (
+				BE8E97AE2D4A6BB3ACC5AB10 /* [CP] Check Pods Manifest.lock */,
+				F3C3D7412592B71200F4F752 /* Sources */,
+				F3C3D7422592B71200F4F752 /* Frameworks */,
+				F3C3D7432592B71200F4F752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlidSearchSwiftUI;
+			productName = GlidSearchSwiftUI;
+			productReference = F3C3D7452592B71200F4F752 /* GlidSearchSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3C3D75A2592B71700F4F752 /* GlidSearchSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C3D7722592B71700F4F752 /* Build configuration list for PBXNativeTarget "GlidSearchSwiftUITests" */;
+			buildPhases = (
+				A9645E4563ADF63CB3521A48 /* [CP] Check Pods Manifest.lock */,
+				F3C3D7572592B71700F4F752 /* Sources */,
+				F3C3D7582592B71700F4F752 /* Frameworks */,
+				F3C3D7592592B71700F4F752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3C3D75D2592B71700F4F752 /* PBXTargetDependency */,
+			);
+			name = GlidSearchSwiftUITests;
+			productName = GlidSearchSwiftUITests;
+			productReference = F3C3D75B2592B71700F4F752 /* GlidSearchSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3C3D7652592B71700F4F752 /* GlidSearchSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C3D7752592B71700F4F752 /* Build configuration list for PBXNativeTarget "GlidSearchSwiftUIUITests" */;
+			buildPhases = (
+				B1421D3991BBAE68E3D11928 /* [CP] Check Pods Manifest.lock */,
+				F3C3D7622592B71700F4F752 /* Sources */,
+				F3C3D7632592B71700F4F752 /* Frameworks */,
+				F3C3D7642592B71700F4F752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3C3D7682592B71700F4F752 /* PBXTargetDependency */,
+			);
+			name = GlidSearchSwiftUIUITests;
+			productName = GlidSearchSwiftUIUITests;
+			productReference = F3C3D7662592B71700F4F752 /* GlidSearchSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3C3D73D2592B71200F4F752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "ahmad shiddiq";
+				TargetAttributes = {
+					F3C3D7442592B71200F4F752 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					F3C3D75A2592B71700F4F752 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = F3C3D7442592B71200F4F752;
+					};
+					F3C3D7652592B71700F4F752 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = F3C3D7442592B71200F4F752;
+					};
+				};
+			};
+			buildConfigurationList = F3C3D7402592B71200F4F752 /* Build configuration list for PBXProject "GlidSearchSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3C3D73C2592B71200F4F752;
+			productRefGroup = F3C3D7462592B71200F4F752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3C3D7442592B71200F4F752 /* GlidSearchSwiftUI */,
+				F3C3D75A2592B71700F4F752 /* GlidSearchSwiftUITests */,
+				F3C3D7652592B71700F4F752 /* GlidSearchSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3C3D7432592B71200F4F752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C3D7552592B71700F4F752 /* LaunchScreen.storyboard in Resources */,
+				F3C3D7522592B71700F4F752 /* Preview Assets.xcassets in Resources */,
+				F3C3D74F2592B71700F4F752 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C3D7592592B71700F4F752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C3D7642592B71700F4F752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9645E4563ADF63CB3521A48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlidSearchSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1421D3991BBAE68E3D11928 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlidSearchSwiftUI-GlidSearchSwiftUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE8E97AE2D4A6BB3ACC5AB10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlidSearchSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3C3D7412592B71200F4F752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35155D92592D68000AEAEBA /* CustomTabs.swift in Sources */,
+				F35155DF2592DB7B00AEAEBA /* ProfileImage.swift in Sources */,
+				F3C3D7492592B71200F4F752 /* AppDelegate.swift in Sources */,
+				F35155D62592CAF900AEAEBA /* CollectionView.swift in Sources */,
+				F35155DD2592DB5300AEAEBA /* Profile.swift in Sources */,
+				F35155E12592DCB200AEAEBA /* ProfileMap.swift in Sources */,
+				F3C3D74B2592B71200F4F752 /* SceneDelegate.swift in Sources */,
+				F35155E42592E14D00AEAEBA /* Search.swift in Sources */,
+				F3C3D7792592B82300F4F752 /* CollectionViewCell.swift in Sources */,
+				F3C3D74D2592B71200F4F752 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C3D7572592B71700F4F752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C3D7602592B71700F4F752 /* GlidSearchSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C3D7622592B71700F4F752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C3D76B2592B71700F4F752 /* GlidSearchSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3C3D75D2592B71700F4F752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3C3D7442592B71200F4F752 /* GlidSearchSwiftUI */;
+			targetProxy = F3C3D75C2592B71700F4F752 /* PBXContainerItemProxy */;
+		};
+		F3C3D7682592B71700F4F752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3C3D7442592B71200F4F752 /* GlidSearchSwiftUI */;
+			targetProxy = F3C3D7672592B71700F4F752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3C3D7532592B71700F4F752 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C3D7542592B71700F4F752 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3C3D76D2592B71700F4F752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3C3D76E2592B71700F4F752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3C3D7702592B71700F4F752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A01F7EE570F33786983E6F3 /* Pods-GlidSearchSwiftUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GlidSearchSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = ZX9XPCSA65;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GlidSearchSwiftUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UnitTestExample.GlidSearchSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3C3D7712592B71700F4F752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C743923D73ACFCA58B561D2 /* Pods-GlidSearchSwiftUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GlidSearchSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = ZX9XPCSA65;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GlidSearchSwiftUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UnitTestExample.GlidSearchSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3C3D7732592B71700F4F752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0006D76D99AD26DB1E26AF0 /* Pods-GlidSearchSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX9XPCSA65;
+				INFOPLIST_FILE = GlidSearchSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UnitTestExample.GlidSearchSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlidSearchSwiftUI.app/GlidSearchSwiftUI";
+			};
+			name = Debug;
+		};
+		F3C3D7742592B71700F4F752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFABB79F656423857EC2A7DC /* Pods-GlidSearchSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX9XPCSA65;
+				INFOPLIST_FILE = GlidSearchSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UnitTestExample.GlidSearchSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlidSearchSwiftUI.app/GlidSearchSwiftUI";
+			};
+			name = Release;
+		};
+		F3C3D7762592B71700F4F752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E918B36FCB9584FCCE338F /* Pods-GlidSearchSwiftUI-GlidSearchSwiftUIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX9XPCSA65;
+				INFOPLIST_FILE = GlidSearchSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UnitTestExample.GlidSearchSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlidSearchSwiftUI;
+			};
+			name = Debug;
+		};
+		F3C3D7772592B71700F4F752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB63534CEB3E009DFC270E9 /* Pods-GlidSearchSwiftUI-GlidSearchSwiftUIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX9XPCSA65;
+				INFOPLIST_FILE = GlidSearchSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UnitTestExample.GlidSearchSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GlidSearchSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3C3D7402592B71200F4F752 /* Build configuration list for PBXProject "GlidSearchSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C3D76D2592B71700F4F752 /* Debug */,
+				F3C3D76E2592B71700F4F752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C3D76F2592B71700F4F752 /* Build configuration list for PBXNativeTarget "GlidSearchSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C3D7702592B71700F4F752 /* Debug */,
+				F3C3D7712592B71700F4F752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C3D7722592B71700F4F752 /* Build configuration list for PBXNativeTarget "GlidSearchSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C3D7732592B71700F4F752 /* Debug */,
+				F3C3D7742592B71700F4F752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C3D7752592B71700F4F752 /* Build configuration list for PBXNativeTarget "GlidSearchSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C3D7762592B71700F4F752 /* Debug */,
+				F3C3D7772592B71700F4F752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3C3D73D2592B71200F4F752 /* Project object */;
+}

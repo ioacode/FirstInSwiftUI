@@ -1,0 +1,6 @@
+framework module Pods_GlidSearchSwiftUI {
+  umbrella header "Pods-GlidSearchSwiftUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
